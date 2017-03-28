@@ -57,15 +57,11 @@
                                 }
                             ?>
                             </p>
-                            
+
                             <?php if ( ! $franz_settings['disable_credit'] ) : ?>
-                            <p>
-                            	<?php printf( __( 'Delicately crafted using %s and WordPress.', 'franz-josef' ), '<a href="http://www.graphene-theme.com/franz-josef/" rel="nofollow">' . __( 'Franz Josef theme', 'franz-josef' ) . '</a>' ); ?>
-                            </p>
                             <?php endif; ?>
                         </div>
                         
-                        <?php franz_social_links( array( 'classes' => array( 'col-xs-12 col-sm-6' ), 'text_align' => 'right' ) ); ?>
                     </div>
             	</div>
             </div>
