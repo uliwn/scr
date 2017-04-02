@@ -1208,7 +1208,7 @@ function amr_list_events($events,  $tid, $class, $show_views=true) {
 //		$start    = new Datetime('now',$amr_globaltz);
 //		$start    = clone $amr_limits['start'];
 		$navigation = amr_calendar_navigation($start, $months, 0, $amr_liststyle); // include month year dropdown	with links
-		$navigation = '<div class="calendar_navigation">'.$navigation.'</div>';
+		$navigation = ''; // '<div class="calendar_navigation">'.$navigation.'</div>';
 	}
 	else {
 		if ((isset($amr_limits['month_prev_next'])) and $amr_limits['month_prev_next']

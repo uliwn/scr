@@ -196,7 +196,7 @@ function amr_events_as_calendar($liststyle, $events, $id, $class='', $initial = 
 	$events = amr_check_for_multiday_events ($events); // now have dummy multi day events added and field dummyYMD to use 
 	
 
-	if (!($liststyle === 'weekscalendar')) 
+	if (!($liststyle === 'weekscalendar'))
 		$bunchesofevents = amr_get_events_in_months_format ($events, $months, $start);
 	else
 		$bunchesofevents = amr_get_events_in_weeks_format ($events, $weeks, $start);
@@ -244,7 +244,7 @@ function amr_events_as_calendar($liststyle, $events, $id, $class='', $initial = 
 				}
 			else {
 				$tfoot = '';
-				$html .= '<div class="calendar_navigation">'.$navigation.'</div>';
+				//$html .= '<div class="calendar_navigation">'.$navigation.'</div>';
 			}		
 	}
 
