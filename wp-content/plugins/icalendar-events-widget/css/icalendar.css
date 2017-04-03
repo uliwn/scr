@@ -78,7 +78,7 @@ ul.iCalEvents li.iCalEventsItem .eventListItemLocation {
 	display: block;
 	margin: 10px 0 0 0;
 }
-ul.iCalEvents li.iCalEventsItem .eventListItemLocation:before { content: 'Treffpunkt: '; }
+ul.iCalEvents li.iCalEventsItem .eventListItemLocation:before { content: ''; } /*Treffpunkt: */
 
 ul.iCalEvents li.iCalEventsItem .eventListItemURL {
 	float: left;
