@@ -49,39 +49,39 @@ ul.iCalEvents li.iCalEventsItem {
 ul.iCalEvents li.iCalEventsItem .eventListItemDateStart,
 ul.iCalEvents li.iCalEventsItem .eventListItemTimeStart {
 	font-size: 10pt;
-	float: left;
+	/*float: left;*/
 }
 ul.iCalEvents li.iCalEventsItem .eventListItemTimeStart {
-	margin-right: 10px;
+	margin-right: 6px;
 }
 ul.iCalEvents li.iCalEventsItem .eventListItemTimeStart:after {
-	content: ' Uhr';
+	content: ' Uhr,';
 }
 
 ul.iCalEvents li.iCalEventsItem .eventListItemSummary {
 	font-size: 10pt;
 	display: block;
 	font-weight: bold;
-	float: left;
+	/*float: left;*/
 }
 
 ul.iCalEvents li.iCalEventsItem .eventListItemDescription {
 	font-size: 10pt;
 	display: block;
-	float: left;
+	/*float: left;*/
 	margin-top: 5px;
 }
 
 ul.iCalEvents li.iCalEventsItem .eventListItemLocation {
 	font-size: 10pt;
-	float: left;
+	/*float: left;*/
 	display: block;
 	margin: 4px 0 0 0;
 }
 ul.iCalEvents li.iCalEventsItem .eventListItemLocation:before { content: ''; } /*Treffpunkt: */
 
 ul.iCalEvents li.iCalEventsItem .eventListItemURL {
-	float: left;
+	/*float: left;*/
 }
 
 /* emtpy event list message */
