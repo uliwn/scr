@@ -513,7 +513,7 @@ class iCalEvents extends WP_Widget {
 				if (array_key_exists( 'DESCRIPTION', $anEvent )) {
 					if ($showEventDescription) {
 						$eventDescriptionTpl = new TemplateFromString( '<span class="eventListItemDescription">{EVENTLIST_ITEM_DESCRIPTION}</span>' );
-						$eventDescriptionTpl->replaceTokenByContent( 'EVENTLIST_ITEM_DESCRIPTION', preg_replace("/\n+/", "", $anEvent['DESCRIPTION']) );
+						$eventDescriptionTpl->replaceTokenByContent( 'EVENTLIST_ITEM_DESCRIPTION', nl2br($anEvent['DESCRIPTION']) );
 						$eventListItemTpl->replaceTokenByContent( 'EVENTLIST_ITEM_DESCRIPTION_TPL', $eventDescriptionTpl->get() );
 					} else {
 						$eventListItemTpl->deleteToken( 'EVENTLIST_ITEM_DESCRIPTION_TPL' );
