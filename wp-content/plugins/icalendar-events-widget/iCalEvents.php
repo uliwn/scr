@@ -450,28 +450,6 @@ class iCalEvents extends WP_Widget {
 				$eventListItemTpl = new TemplateFromFile( $this->templatePath.'event_list_item.tpl' );
 
 				// ---------------------------------------------------------------------------------------
-				// event start date
-				// ---------------------------------------------------------------------------------------
-				if ($showEventDateStart) {
-					$eventDateStartTpl = new TemplateFromString( '<span class="eventListItemDateStart">{EVENTLIST_ITEM_DATE_START}</span>' );
-					$eventDateStartTpl->replaceTokenByContent( 'EVENTLIST_ITEM_DATE_START', date('d.m.Y', $iCal->iCalDateToUnixTimestamp($anEvent['DTSTART'])) );
-					$eventListItemTpl->replaceTokenByContent( 'EVENTLIST_ITEM_DATE_START_TPL', $eventDateStartTpl->get() );
-				} else {
-					$eventListItemTpl->deleteToken( 'EVENTLIST_ITEM_DATE_START_TPL' );
-				}
-
-				// ---------------------------------------------------------------------------------------
-				// event start time
-				// ---------------------------------------------------------------------------------------
-				if ($showEventTimeStart) {
-					$eventTimeStartTpl = new TemplateFromString( '<span class="eventListItemTimeStart">{EVENTLIST_ITEM_TIME_START}</span>' );
-					$eventTimeStartTpl->replaceTokenByContent( 'EVENTLIST_ITEM_TIME_START', date('H:i', $iCal->iCalDateToUnixTimestamp($anEvent['DTSTART'])) );
-					$eventListItemTpl->replaceTokenByContent( 'EVENTLIST_ITEM_TIME_START_TPL', $eventTimeStartTpl->get() );
-				} else {
-					$eventListItemTpl->deleteToken( 'EVENTLIST_ITEM_TIME_START_TPL' );
-				}
-
-				// ---------------------------------------------------------------------------------------
 				// event end date
 				// ---------------------------------------------------------------------------------------
 				if ($showEventDateEnd) {
@@ -507,6 +485,28 @@ class iCalEvents extends WP_Widget {
 				} else {
 					$eventListItemTpl->deleteToken( 'EVENTLIST_ITEM_SUMMARY_TPL' );
 				}
+
+                // ---------------------------------------------------------------------------------------
+                // event start time
+                // ---------------------------------------------------------------------------------------
+                if ($showEventTimeStart) {
+                    $eventTimeStartTpl = new TemplateFromString( '<span class="eventListItemTimeStart">{EVENTLIST_ITEM_TIME_START}</span>' );
+                    $eventTimeStartTpl->replaceTokenByContent( 'EVENTLIST_ITEM_TIME_START', date('H:i', $iCal->iCalDateToUnixTimestamp($anEvent['DTSTART'])) );
+                    $eventListItemTpl->replaceTokenByContent( 'EVENTLIST_ITEM_TIME_START_TPL', $eventTimeStartTpl->get() );
+                } else {
+                    $eventListItemTpl->deleteToken( 'EVENTLIST_ITEM_TIME_START_TPL' );
+                }
+
+                // ---------------------------------------------------------------------------------------
+                // event start date
+                // ---------------------------------------------------------------------------------------
+                if ($showEventDateStart) {
+                    $eventDateStartTpl = new TemplateFromString( '<span class="eventListItemDateStart">{EVENTLIST_ITEM_DATE_START}</span>' );
+                    $eventDateStartTpl->replaceTokenByContent( 'EVENTLIST_ITEM_DATE_START', date('d.m.Y', $iCal->iCalDateToUnixTimestamp($anEvent['DTSTART'])) );
+                    $eventListItemTpl->replaceTokenByContent( 'EVENTLIST_ITEM_DATE_START_TPL', $eventDateStartTpl->get() );
+                } else {
+                    $eventListItemTpl->deleteToken( 'EVENTLIST_ITEM_DATE_START_TPL' );
+                }
 
 				// ---------------------------------------------------------------------------------------
 				// event description
