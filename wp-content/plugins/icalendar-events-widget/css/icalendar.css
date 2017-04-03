@@ -55,7 +55,7 @@ ul.iCalEvents li.iCalEventsItem .eventListItemTimeStart {
 	margin-right: 10px;
 }
 ul.iCalEvents li.iCalEventsItem .eventListItemTimeStart:after {
-	content: ' Uhr,';
+	content: ' Uhr';
 }
 
 ul.iCalEvents li.iCalEventsItem .eventListItemSummary {
