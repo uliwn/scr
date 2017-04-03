@@ -498,7 +498,8 @@ class iCalEvents extends WP_Widget {
 				if (array_key_exists( 'SUMMARY', $anEvent )) {
 					if ($showEventSummary) {
 						$eventSummaryTpl = new TemplateFromString( '<span class="eventListItemSummary">{EVENTLIST_ITEM_SUMMARY}</span>' );
-						$eventSummaryTpl->replaceTokenByContent( 'EVENTLIST_ITEM_SUMMARY', stripslashes_deep($anEvent['SUMMARY']) );
+						$summary = str_replace(")-", ") -", stripslashes_deep($anEvent['SUMMARY']));
+						$eventSummaryTpl->replaceTokenByContent( 'EVENTLIST_ITEM_SUMMARY', $summary );
 						$eventListItemTpl->replaceTokenByContent( 'EVENTLIST_ITEM_SUMMARY_TPL', $eventSummaryTpl->get() );
 					} else {
 						$eventListItemTpl->deleteToken( 'EVENTLIST_ITEM_SUMMARY_TPL' );
@@ -513,7 +514,10 @@ class iCalEvents extends WP_Widget {
 				if (array_key_exists( 'DESCRIPTION', $anEvent )) {
 					if ($showEventDescription) {
 						$eventDescriptionTpl = new TemplateFromString( '<span class="eventListItemDescription">{EVENTLIST_ITEM_DESCRIPTION}</span>' );
-						$eventDescriptionTpl->replaceTokenByContent( 'EVENTLIST_ITEM_DESCRIPTION', str_replace("nn", " ", stripslashes_deep($anEvent['DESCRIPTION'])) );
+						$description = str_replace("nn", " ", stripslashes_deep($anEvent['DESCRIPTION']));
+						$description = str_replace("Meisterschaft", "Meisterschaft ", $description);
+                        $description = str_replace("FVBJ - ", "", $description);
+						$eventDescriptionTpl->replaceTokenByContent( 'EVENTLIST_ITEM_DESCRIPTION', $description );
 						$eventListItemTpl->replaceTokenByContent( 'EVENTLIST_ITEM_DESCRIPTION_TPL', $eventDescriptionTpl->get() );
 					} else {
 						$eventListItemTpl->deleteToken( 'EVENTLIST_ITEM_DESCRIPTION_TPL' );
