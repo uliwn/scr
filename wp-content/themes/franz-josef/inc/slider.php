@@ -57,24 +57,22 @@ function franz_slider( $args = array() ){
 				$style = apply_filters( 'franz_slide_style_attr', $style );
 			?>
 
-            <div class="item <?php if ( $slides->current_post == 0 ) echo 'active'; ?>" id="slide-<?php the_ID(); ?>" <?php echo $style; ?>>
+            <div onclick="location.href='<?php the_permalink(); ?>';" class="item <?php if ( $slides->current_post == 0 ) echo 'active'; ?>" id="slide-<?php the_ID(); ?>" <?php echo $style; ?>>
                 <div class="container">
                     <div class="carousel-caption">
-                        <a href="<?php the_permalink(); ?>">
-                            <h3 class="slide-title"><?php the_title(); ?></h3>
-                            <div class="excerpt">
-                                <?php
-                                    if ( $content == 'excerpt' )
-                                    {
-                                        //the_excerpt();
-                                    }
-                                    elseif ( $content == 'full_content' )
-                                    {
-                                        //the_content();
-                                    }
-                                ?>
-                            </div>
-                        </a>
+                        <h3 class="slide-title"><?php the_title(); ?></h3>
+                        <div class="excerpt">
+                            <?php
+                                if ( $content == 'excerpt' )
+                                {
+                                    //the_excerpt();
+                                }
+                                elseif ( $content == 'full_content' )
+                                {
+                                    //the_content();
+                                }
+                            ?>
+                        </div>
                         <?php if ( $content != 'full_content' ) : ?>
                             <!--div class="call-to-action">
                                 <p><a role="button" href="" class="btn btn-lg btn-primary"><?php _e( 'View post', 'franz-josef' ); ?></a></p>
