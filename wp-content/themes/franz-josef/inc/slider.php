@@ -56,21 +56,28 @@ function franz_slider( $args = array() ){
 					
 				$style = apply_filters( 'franz_slide_style_attr', $style );
 			?>
+            <a href="<?php the_permalink(); ?>">
             <div class="item <?php if ( $slides->current_post == 0 ) echo 'active'; ?>" id="slide-<?php the_ID(); ?>" <?php echo $style; ?>>
                 <div class="container">
                     <div class="carousel-caption">
                         <h3 class="slide-title"><?php the_title(); ?></h3>
                         <div class="excerpt">
-                            <?php 
-								if ( $content == 'excerpt' ) the_excerpt(); 
-								elseif ( $content == 'full_content' ) the_content(); 
+                            <?php
+								if ( $content == 'excerpt' )
+                                {
+                                    //the_excerpt();
+                                }
+								elseif ( $content == 'full_content' )
+                                {
+                                    //the_content();
+                                }
 							?>
                         </div>
-                        
+
                         <?php if ( $content != 'full_content' ) : ?>
-                            <div class="call-to-action">
-                                <p><a role="button" href="<?php the_permalink(); ?>" class="btn btn-lg btn-primary"><?php _e( 'View post', 'franz-josef' ); ?></a></p>
-                            </div>
+                            <!--div class="call-to-action">
+                                <p><a role="button" href="" class="btn btn-lg btn-primary"><?php _e( 'View post', 'franz-josef' ); ?></a></p>
+                            </div-->
                         <?php endif; ?>
                         
                         <?php do_action( 'franz_slide_content' ); ?>
@@ -78,6 +85,7 @@ function franz_slider( $args = array() ){
                 </div>
                 <?php do_action( 'franz_slide_content_outer' ); ?>
             </div>
+            </a>
             <?php endwhile; ?>
         </div>
         <a data-slide="prev" role="button" href="#<?php echo $args['id']; ?>" class="left carousel-control"><span class="fa fa-chevron-left glyphicon-chevron-left"></span></a>
