@@ -1426,7 +1426,7 @@ msgid "They love you!"
 msgstr ""
 
 #: inc/stacks.php:187
-msgid "Latest Articles"
+msgid "Aktuelles"
 msgstr ""
 
 #: inc/widgets.php:10
