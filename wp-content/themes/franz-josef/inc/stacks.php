@@ -194,7 +194,7 @@ function franz_stack_posts( $args = array() ){
 	if ( 'page' == get_option( 'show_on_front' ) && $franz_settings['disable_front_page_blog'] && ! franz_has_custom_layout() ) return;
 	
 	$defaults = array(
-		'title'					=> __( 'Latest Articles', 'franz-josef' ),
+		'title'					=> __( 'Aktuelles', 'franz-josef' ),
 		'description'			=> '',
 		'post_type'				=> array( 'post' ),
 		'posts_per_page'		=> get_option( 'posts_per_page' ),
