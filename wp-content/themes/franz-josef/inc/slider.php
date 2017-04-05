@@ -60,7 +60,7 @@ function franz_slider( $args = array() ){
             <div onclick="location.href='<?php the_permalink(); ?>';" class="item <?php if ( $slides->current_post == 0 ) echo 'active'; ?>" id="slide-<?php the_ID(); ?>" <?php echo $style; ?>>
                 <div class="container">
                     <div class="carousel-caption">
-                        <h3 class="slide-title"><?php the_title(); ?></h3>
+                        <!--h3 class="slide-title"><?php the_title(); ?></h3-->
                         <div class="excerpt">
                             <?php
                                 if ( $content == 'excerpt' )
