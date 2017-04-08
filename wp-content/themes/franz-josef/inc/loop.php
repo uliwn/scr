@@ -104,7 +104,8 @@ function franz_entry_meta(){
 			'meta'	=> '<a href="' . esc_url( get_permalink( $post_id ) ) . '">' . get_the_time( get_option( 'date_format' ) ) . '</a>',
 		);
 	}
-	
+	$author = '';
+	$categories = '';
 	/* Post author and categories */
 	if ( ! $franz_settings['hide_post_cat'] ) {
 		$cats = get_the_category(); $categories = array();
