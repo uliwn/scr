@@ -1227,8 +1227,8 @@ msgstr ""
 #, php-format
 msgid "%s comment"
 msgid_plural "%s comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kommentar"
+msgstr[1] "Kommentare"
 
 #: comments.php:34
 #, php-format
@@ -1247,7 +1247,7 @@ msgstr ""
 
 #: comments.php:85
 msgid "Submit Comment"
-msgstr ""
+msgstr "Submit Kommentar"
 
 #: comments.php:86
 msgid "Your email address will not be published."
@@ -1268,7 +1268,7 @@ msgstr ""
 
 #: inc/comments.php:23
 msgid "Reply"
-msgstr ""
+msgstr "Antworten"
 
 #: inc/comments.php:31
 msgid "Your comment is awaiting moderation."
@@ -1301,11 +1301,11 @@ msgstr ""
 
 #: inc/comments.php:155
 msgid "Post Comment"
-msgstr ""
+msgstr "Post Kommentar"
 
 #: inc/comments.php:237
 msgid "Delete this comment"
-msgstr ""
+msgstr "Lösche diesen Kommentar"
 
 #: inc/comments.php:239
 msgid "Mark this comment as spam"
@@ -1338,15 +1338,15 @@ msgstr ""
 #, php-format
 msgid "%d comment"
 msgid_plural "%d comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kommentar"
+msgstr[1] "Kommentare"
 
 #: inc/loop.php:125 inc/loop.php:176 inc/stacks.php:297
 msgid "Leave a reply"
-msgstr ""
+msgstr "kommentieren"
 
 #: inc/loop.php:272
-msgid "Auf dieser Seite"
+msgid "In this section"
 msgstr ""
 
 #: inc/loop.php:352
