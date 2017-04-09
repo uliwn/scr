@@ -1346,7 +1346,7 @@ msgid "Leave a reply"
 msgstr ""
 
 #: inc/loop.php:272
-msgid "In this section"
+msgid "Auf dieser Seite"
 msgstr ""
 
 #: inc/loop.php:352
