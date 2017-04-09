@@ -24,9 +24,9 @@
             	<div class="row">
                 	<?php 
 						if ( ! dynamic_sidebar( 'top-bar' ) ) {
-							the_widget( 'Franz_Top_Bar_Text', array( 'width' => 4, 'text_align' => 'left', 'text' => get_bloginfo( 'description' ), 'filter' => true ) );
-							the_widget( 'Franz_Top_Bar_Menu', array( 'width' => 4, 'text_align' => 'center' ) );
-							the_widget( 'Franz_Top_Bar_Social', array( 'width' => 4, 'text_align' => 'right' ) );
+							//the_widget( 'Franz_Top_Bar_Text', array( 'width' => 4, 'text_align' => 'left', 'text' => get_bloginfo( 'description' ), 'filter' => true ) );
+							the_widget( 'Franz_Top_Bar_Menu', array( 'width' => 12, 'text_align' => 'right' ) );
+							//the_widget( 'Franz_Top_Bar_Social', array( 'width' => 4, 'text_align' => 'right' ) );
 						}
 					?>
                 </div>
