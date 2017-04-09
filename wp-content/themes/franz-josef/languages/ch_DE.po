@@ -1227,8 +1227,8 @@ msgstr ""
 #, php-format
 msgid "%s comment"
 msgid_plural "%s comments"
-msgstr[0] "Kommentar"
-msgstr[1] "Kommentare"
+msgstr[0] "%s Kommentar"
+msgstr[1] "%s Kommentare"
 
 #: comments.php:34
 #, php-format
@@ -1338,10 +1338,10 @@ msgstr ""
 #, php-format
 msgid "%d comment"
 msgid_plural "%d comments"
-msgstr[0] "Kommentar"
-msgstr[1] "Kommentare"
+msgstr[0] "%d Kommentar"
+msgstr[1] "%d Kommentare"
 
-#: inc/loop.php:125 inc/loop.php:176 inc/stacks.php:297
+#: inc/loop.php:125 inc/loop.php:176 inc/stacks.php:29
 msgid "Leave a reply"
 msgstr "kommentieren"
 
