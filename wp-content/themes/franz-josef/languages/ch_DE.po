@@ -1251,7 +1251,7 @@ msgstr "Submit Kommentar"
 
 #: comments.php:86
 msgid "Your email address will not be published."
-msgstr ""
+msgstr "Deine email Adresse wird nicht publiziert."
 
 #: footer.php:58
 #, php-format
@@ -1277,7 +1277,7 @@ msgstr ""
 #: inc/comments.php:50
 #, php-format
 msgid "%1$s on %2$s at %3$s"
-msgstr ""
+msgstr "%1$s am %2$s um %3$s"
 
 #: inc/comments.php:56
 msgid "Author"
@@ -1293,15 +1293,15 @@ msgstr ""
 
 #: inc/comments.php:102
 msgid "Website (optional)"
-msgstr ""
+msgstr "Webseite (optional)"
 
 #: inc/comments.php:128
 msgid "Your message"
-msgstr ""
+msgstr "Deine Nachricht"
 
 #: inc/comments.php:155
 msgid "Post Comment"
-msgstr "Post Kommentar"
+msgstr "Kommentieren"
 
 #: inc/comments.php:237
 msgid "Delete this comment"
