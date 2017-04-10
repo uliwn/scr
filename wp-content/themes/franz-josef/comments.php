@@ -21,6 +21,7 @@ if ( post_password_required() && ( comments_open() || have_comments() ) ) : ?>
 
 do_action( 'franz_before_comment_template' ); 
 
+$comment_count = '';
 /* Lists all the comments for the current post */
 if ( have_comments() ) :
 	
