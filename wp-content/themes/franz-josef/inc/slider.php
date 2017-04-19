@@ -55,10 +55,9 @@ function franz_slider( $args = array() ){
 				if ( $bg_image ) $style = 'style="background-image: url(' . $bg_image['url'] . ')"';
 					
 				$style = apply_filters( 'franz_slide_style_attr', $style );
-				$title = the_title();
 			?>
-            <!--  -->
-            <div <?php if ( $title != 'nopost' ) : ?> onclick="location.href='<?php the_permalink(); ?>';" <?php endif; ?> class="item <?php if ( $slides->current_post == 0 ) echo 'active'; ?>" id="slide-<?php the_ID(); ?>" <?php echo $style; ?>>
+            <!-- onclick="location.href='<?php the_permalink(); ?>';" -->
+            <div class="item <?php if ( $slides->current_post == 0 ) echo 'active'; ?>" id="slide-<?php the_ID(); ?>" <?php echo $style; ?>>
                 <div class="container">
                     <div class="carousel-caption">
                         <!--h3 class="slide-title"><?php the_title(); ?></h3-->
