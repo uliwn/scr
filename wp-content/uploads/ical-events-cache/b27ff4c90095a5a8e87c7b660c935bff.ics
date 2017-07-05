@@ -1,0 +1,745 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:FOOTBALL.CH
+CALSCALE:GREGORIAN
+X-WR-TIMEZONE:Europe/Amsterdam
+X-WR-CALNAME:SC Radelfingen - Vereinsspielplan
+BEGIN:VTIMEZONE
+TZID:TZsfv
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:20061029T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:20070325T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170408T153000
+DTEND;TZID=TZsfv:20170408T173000
+UID:2674065@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Täuffelen (5.)
+  - SC Radelfingen (5.)
+DESCRIPTION:FVBJ - Meisterschaft
+  5. Liga / - / Gruppe  8
+ \n\nSpielnummer 111660
+ \n\nhttp://www.football.ch
+LOCATION:Rüti\, Täuffelen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170408T173000
+DTEND;TZID=TZsfv:20170408T193000
+UID:2673951@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Walperswil (4.)
+  - SC Radelfingen (4.)
+DESCRIPTION:FVBJ - Meisterschaft
+  4. Liga / - / Gruppe  7
+ \n\nSpielnummer 111549
+ \n\nhttp://www.football.ch
+LOCATION:Sportplatz Stockmatt\, Walperswil - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170412T200000
+DTEND;TZID=TZsfv:20170412T220000
+UID:2674881@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Iberico Bienne (Sen.30+)
+  - SC Radelfingen (Sen.30+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 30+ / SEFV / -
+ \n\nSpielnummer 112465
+ \n\nhttp://www.football.ch
+LOCATION:Längfeld 2\, Biel - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170413T190000
+DTEND;TZID=TZsfv:20170413T210000
+UID:2675134@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Mett (Sen.40+)
+  - SC Radelfingen (Sen.40+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 40+ / SEFV / -
+ \n\nSpielnummer 112717
+ \n\nhttp://www.football.ch
+LOCATION:Längfeld 1\, Biel - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170415T183000
+DTEND;TZID=TZsfv:20170415T203000
+UID:2673957@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Radelfingen (4.)
+  - FC Müntschemier (4.)
+DESCRIPTION:FVBJ - Meisterschaft
+  4. Liga / - / Gruppe  7
+ \n\nSpielnummer 111555
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170421T190000
+DTEND;TZID=TZsfv:20170421T210000
+UID:2675135@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Radelfingen (Sen.40+)
+  - FC Kerzers (Sen.40+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 40+ / SEFV / -
+ \n\nSpielnummer 112718
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170421T201500
+DTEND;TZID=TZsfv:20170421T221500
+UID:2674890@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Radelfingen (Sen.30+)
+  - FC Schüpfen (Sen.30+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 30+ / SEFV / -
+ \n\nSpielnummer 112474
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170422T100000
+DTEND;TZID=TZsfv:20170422T120000
+UID:2829707@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Grünstern b (Jun.D/9)
+  - SC Radelfingen (Jun.D/9)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren D/9 / SEFV - Stkl. 3 - Frühjahrsrunde / Gruppe  1
+ \n\nSpielnummer 246727
+ \n\nhttp://www.football.ch
+LOCATION:Gemeindesportplatz Ipsach\, Ipsach - Nebenplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170422T160000
+DTEND;TZID=TZsfv:20170422T180000
+UID:2674074@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Diessbach/Dotzigen b (5.)
+  - SC Radelfingen (5.)
+DESCRIPTION:FVBJ - Meisterschaft
+  5. Liga / - / Gruppe  8
+ \n\nSpielnummer 111669
+ \n\nhttp://www.football.ch
+LOCATION:Eichi\, Diessbach - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170422T181500
+DTEND;TZID=TZsfv:20170422T201500
+UID:2824935@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Münchenbuchsee c (Jun.C 2/S)
+  - SC Radelfingen (Jun.C 2/S)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren C 2. Stärkeklasse / Frühjahrsrunde / Gruppe  6
+ \n\nSpielnummer 242521
+ \n\nhttp://www.football.ch
+LOCATION:Schönegg\, Münchenbuchsee - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170422T181500
+DTEND;TZID=TZsfv:20170422T201500
+UID:2673962@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Nidau (4.)
+  - SC Radelfingen (4.)
+DESCRIPTION:FVBJ - Meisterschaft
+  4. Liga / - / Gruppe  7
+ \n\nSpielnummer 111560
+ \n\nhttp://www.football.ch
+LOCATION:Burgerallee\, Nidau - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170426T190000
+DTEND;TZID=TZsfv:20170426T210000
+UID:2675137@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Etoile Biel (Sen.40+)
+  - SC Radelfingen (Sen.40+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 40+ / SEFV / -
+ \n\nSpielnummer 112720
+ \n\nhttp://www.football.ch
+LOCATION:Mühlefeld\, Biel - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170427T193000
+DTEND;TZID=TZsfv:20170427T213000
+UID:2674899@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:CS Lecce (Sen.30+)
+  - SC Radelfingen (Sen.30+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 30+ / SEFV / -
+ \n\nSpielnummer 112483
+ \n\nhttp://www.football.ch
+LOCATION:Längfeld 2\, Biel - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170427T193000
+DTEND;TZID=TZsfv:20170427T213000
+UID:2824927@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Radelfingen (Jun.C 2/S)
+  - FC Iberico Bienne (Jun.C 2/S)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren C 2. Stärkeklasse / Frühjahrsrunde / Gruppe  6
+ \n\nSpielnummer 242513
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170429T100000
+DTEND;TZID=TZsfv:20170429T120000
+UID:2829711@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Radelfingen (Jun.D/9)
+  - SV Port (Jun.D/9)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren D/9 / SEFV - Stkl. 3 - Frühjahrsrunde / Gruppe  1
+ \n\nSpielnummer 246731
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170429T133000
+DTEND;TZID=TZsfv:20170429T153000
+UID:2824936@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Radelfingen (Jun.C 2/S)
+  - Team ABO b (Jun.C 2/S)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren C 2. Stärkeklasse / Frühjahrsrunde / Gruppe  6
+ \n\nSpielnummer 242522
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170429T160000
+DTEND;TZID=TZsfv:20170429T180000
+UID:2674078@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Wileroltigen (5.)
+  - SC Radelfingen (5.)
+DESCRIPTION:FVBJ - Meisterschaft
+  5. Liga / - / Gruppe  8
+ \n\nSpielnummer 111673
+ \n\nhttp://www.football.ch
+LOCATION:Saane\, Wileroltigen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170429T183000
+DTEND;TZID=TZsfv:20170429T203000
+UID:2673970@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Radelfingen (4.)
+  - SV Port a (4.)
+DESCRIPTION:FVBJ - Meisterschaft
+  4. Liga / - / Gruppe  7
+ \n\nSpielnummer 111568
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170503T193000
+DTEND;TZID=TZsfv:20170503T213000
+UID:2675140@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Grünstern (Sen.40+)
+  - SC Radelfingen (Sen.40+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 40+ / SEFV / -
+ \n\nSpielnummer 112723
+ \n\nhttp://www.football.ch
+LOCATION:Gemeindesportplatz Ipsach\, Ipsach - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170505T190000
+DTEND;TZID=TZsfv:20170505T210000
+UID:2674901@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Rüti b. Büren (Sen.30+)
+  - SC Radelfingen (Sen.30+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 30+ / SEFV / -
+ \n\nSpielnummer 112485
+ \n\nhttp://www.football.ch
+LOCATION:Eichi\, Diessbach - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170506T130000
+DTEND;TZID=TZsfv:20170506T150000
+UID:2829714@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Aarberg c (Jun.D/9)
+  - SC Radelfingen (Jun.D/9)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren D/9 / SEFV - Stkl. 3 - Frühjahrsrunde / Gruppe  1
+ \n\nSpielnummer 246734
+ \n\nhttp://www.football.ch
+LOCATION:Aarolina\, Aarberg - Kräjeninsel
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170506T143000
+DTEND;TZID=TZsfv:20170506T163000
+UID:2824942@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Rüti b. Büren (Jun.C 2/S)
+  - SC Radelfingen (Jun.C 2/S)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren C 2. Stärkeklasse / Frühjahrsrunde / Gruppe  6
+ \n\nSpielnummer 242528
+ \n\nhttp://www.football.ch
+LOCATION:Beunde\, Rüti b. Büren - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170506T180000
+DTEND;TZID=TZsfv:20170506T200000
+UID:2673973@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC La Neuveville-Lamboing (4.)
+  - SC Radelfingen (4.)
+DESCRIPTION:FVBJ - Meisterschaft
+  4. Liga / - / Gruppe  7
+ \n\nSpielnummer 111571
+ \n\nhttp://www.football.ch
+LOCATION:Le Jorat\, Lamboing - Terrain principal
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170506T180000
+DTEND;TZID=TZsfv:20170506T200000
+UID:2674083@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Hermrigen (5.)
+  - SC Radelfingen (5.)
+DESCRIPTION:FVBJ - Meisterschaft
+  5. Liga / - / Gruppe  8
+ \n\nSpielnummer 111678
+ \n\nhttp://www.football.ch
+LOCATION:Budlei\, Hermrigen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170512T194500
+DTEND;TZID=TZsfv:20170512T214500
+UID:2674908@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:FC Walperswil (Sen.30+)
+  - SC Radelfingen (Sen.30+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 30+ / SEFV / -
+ \n\nSpielnummer 112492
+ \n\nhttp://www.football.ch
+LOCATION:Sportplatz Stockmatt\, Walperswil - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170513T100000
+DTEND;TZID=TZsfv:20170513T120000
+UID:2829720@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Radelfingen (Jun.D/9)
+  - FC Nidau (Jun.D/9)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren D/9 / SEFV - Stkl. 3 - Frühjahrsrunde / Gruppe  1
+ \n\nSpielnummer 246740
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170513T133000
+DTEND;TZID=TZsfv:20170513T153000
+UID:2824945@football.ch
+DTSTAMP:20170403T210524Z
+SUMMARY:SC Radelfingen (Jun.C 2/S)
+  - Team Ins / Müntschemier b (Jun.C 2/S)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren C 2. Stärkeklasse / Frühjahrsrunde / Gruppe  6
+ \n\nSpielnummer 242531
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170513T160000
+DTEND;TZID=TZsfv:20170513T180000
+UID:2674089@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (5.)
+  - SC Rüti b. Büren (5.)
+DESCRIPTION:FVBJ - Meisterschaft
+  5. Liga / - / Gruppe  8
+ \n\nSpielnummer 111684
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170513T183000
+DTEND;TZID=TZsfv:20170513T203000
+UID:2673983@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (4.)
+  - FC Mett (4.)
+DESCRIPTION:FVBJ - Meisterschaft
+  4. Liga / - / Gruppe  7
+ \n\nSpielnummer 111581
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170515T191500
+DTEND;TZID=TZsfv:20170515T211500
+UID:2835344@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Blustavia (Sen.50+)
+  - SC Radelfingen (Sen.50+)
+DESCRIPTION:SOFV - Trainingsspiele
+  
+ \n\nSpielnummer 723649
+ \n\nhttp://www.football.ch
+LOCATION:Mittleres Brühl\, Solothurn - Platz E
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170519T190000
+DTEND;TZID=TZsfv:20170519T210000
+UID:2675144@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (Sen.40+)
+  - FC Mett (Sen.40+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 40+ / SEFV / -
+ \n\nSpielnummer 112727
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170519T201500
+DTEND;TZID=TZsfv:20170519T221500
+UID:2674912@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (Sen.30+)
+  - FC Täuffelen (Sen.30+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 30+ / SEFV / -
+ \n\nSpielnummer 112496
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170520T130000
+DTEND;TZID=TZsfv:20170520T150000
+UID:2829721@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:FC Pieterlen b (Jun.D/9)
+  - SC Radelfingen (Jun.D/9)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren D/9 / SEFV - Stkl. 3 - Frühjahrsrunde / Gruppe  1
+ \n\nSpielnummer 246741
+ \n\nhttp://www.football.ch
+LOCATION:Moos Pieterlen\,   - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170520T180000
+DTEND;TZID=TZsfv:20170520T200000
+UID:2674092@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:FC Aarberg (5.)
+  - SC Radelfingen (5.)
+DESCRIPTION:FVBJ - Meisterschaft
+  5. Liga / - / Gruppe  8
+ \n\nSpielnummer 111687
+ \n\nhttp://www.football.ch
+LOCATION:Aarolina\, Aarberg - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170520T183000
+DTEND;TZID=TZsfv:20170520T203000
+UID:2673984@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (4.)
+  - FC Pieterlen (4.)
+DESCRIPTION:FVBJ - Meisterschaft
+  4. Liga / - / Gruppe  7
+ \n\nSpielnummer 111582
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170521T130000
+DTEND;TZID=TZsfv:20170521T150000
+UID:2824949@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:FC Azzurri Bienne b (Jun.C 2/S)
+  - SC Radelfingen (Jun.C 2/S)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren C 2. Stärkeklasse / Frühjahrsrunde / Gruppe  6
+ \n\nSpielnummer 242535
+ \n\nhttp://www.football.ch
+LOCATION:Champagne\, Biel/Bienne - Hauptplatz (Champagne 1)
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170522T200000
+DTEND;TZID=TZsfv:20170522T220000
+UID:2675145@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:FC Kerzers (Sen.40+)
+  - SC Radelfingen (Sen.40+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 40+ / SEFV / -
+ \n\nSpielnummer 112728
+ \n\nhttp://www.football.ch
+LOCATION:Erli - Kerzers\, Kerzers - Erli 1
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170524T190000
+DTEND;TZID=TZsfv:20170524T210000
+UID:2674917@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Aegerten Brügg (Sen.30+)
+  - SC Radelfingen (Sen.30+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 30+ / SEFV / -
+ \n\nSpielnummer 112501
+ \n\nhttp://www.football.ch
+LOCATION:Neufeld Aegerten\, Aegerten - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170524T201500
+DTEND;TZID=TZsfv:20170524T221500
+UID:2673995@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:FC Aarberg (4.)
+  - SC Radelfingen (4.)
+DESCRIPTION:FVBJ - Meisterschaft
+  4. Liga / - / Gruppe  7
+ \n\nSpielnummer 111593
+ \n\nhttp://www.football.ch
+LOCATION:Aarolina\, Aarberg - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170527T133000
+DTEND;TZID=TZsfv:20170527T153000
+UID:2824954@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (Jun.C 2/S)
+  - Team Etoile-Aurore (Jun.C 2/S)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren C 2. Stärkeklasse / Frühjahrsrunde / Gruppe  6
+ \n\nSpielnummer 242540
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170527T160000
+DTEND;TZID=TZsfv:20170527T180000
+UID:2674100@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (5.)
+  - FC Büren a. A. (5.)
+DESCRIPTION:FVBJ - Meisterschaft
+  5. Liga / - / Gruppe  8
+ \n\nSpielnummer 111695
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170602T190000
+DTEND;TZID=TZsfv:20170602T210000
+UID:2675147@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (Sen.40+)
+  - FC Etoile Biel (Sen.40+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 40+ / SEFV / -
+ \n\nSpielnummer 112730
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170602T201500
+DTEND;TZID=TZsfv:20170602T221500
+UID:2674889@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (Sen.30+)
+  - FC Mett (Sen.30+)
+DESCRIPTION:FVBJ - Meisterschaft
+  Senioren 30+ / SEFV / -
+ \n\nSpielnummer 112473
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170603T000000
+DTEND;TZID=TZsfv:20170603T020000
+UID:2829728@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:FC Besa Biel/Bienne b (Jun.D/9)
+  - SC Radelfingen (Jun.D/9)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren D/9 / SEFV - Stkl. 3 - Frühjahrsrunde / Gruppe  1
+ \n\nSpielnummer 246748
+ \n\nhttp://www.football.ch
+LOCATION:Längfeld 2\, Biel - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170603T160000
+DTEND;TZID=TZsfv:20170603T180000
+UID:2674067@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (5.)
+  - SV Lyss b (5.)
+DESCRIPTION:FVBJ - Meisterschaft
+  5. Liga / - / Gruppe  8
+ \n\nSpielnummer 111662
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170603T183000
+DTEND;TZID=TZsfv:20170603T203000
+UID:2673997@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (4.)
+  - FC Ins (4.)
+DESCRIPTION:FVBJ - Meisterschaft
+  4. Liga / - / Gruppe  7
+ \n\nSpielnummer 111595
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170610T100000
+DTEND;TZID=TZsfv:20170610T120000
+UID:2829730@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Radelfingen (Jun.D/9)
+  - FC Büren a. A. (Jun.D/9)
+DESCRIPTION:FVBJ - Meisterschaft
+  Junioren D/9 / SEFV - Stkl. 3 - Frühjahrsrunde / Gruppe  1
+ \n\nSpielnummer 246750
+ \n\nhttp://www.football.ch
+LOCATION:Au Radelfingen\, Radelfingen - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=TZsfv:20170610T160000
+DTEND;TZID=TZsfv:20170610T180000
+UID:2674006@football.ch
+DTSTAMP:20170403T210525Z
+SUMMARY:SC Aegerten Brügg b (4.)
+  - SC Radelfingen (4.)
+DESCRIPTION:FVBJ - Meisterschaft
+  4. Liga / - / Gruppe  7
+ \n\nSpielnummer 111604
+ \n\nhttp://www.football.ch
+LOCATION:Neufeld Aegerten\, Aegerten - Hauptplatz
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+END:VEVENT
+END:VCALENDAR
